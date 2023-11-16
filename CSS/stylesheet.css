@@ -1,0 +1,50 @@
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+:root {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*************************************************
+    Container styles
+ *************************************************/
+
+.container_grande {
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/05/00/28/background-1497873_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    height: 150px;
+    box-shadow: 20px 20px 50px 10px pink inset;
+}
+
+/*************************************************
+    Span setup
+ *************************************************/
+.container span {
+    font-size: 24px;
+}
+
+/*************************************************
+    D-setup
+ *************************************************/
+.container span,
+.container h2 {
+    display: inline-block;
+    color: white;
+}
